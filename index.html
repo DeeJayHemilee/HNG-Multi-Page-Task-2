@@ -15,82 +15,106 @@
             <li><a href="#" class="nav-link" data-page="about">About Me</a></li>
         </ul>
     </nav>
+    <!-- Profile Page -->
+    <main class="page-container active" id="profile-page">
+        <article data-testid="test-profile-card" class="card">
+            <div class="card-content">
+                <!-- Left Section: Avatar and Social Links -->
+                <div class="left-section">
+                    <!-- Avatar Image -->
+                    <figure>
+                        <img data-testid="test-user-avatar"
+                             class="avatar"
+                             src="20251018_155743.jpg"
+                             alt="Profile avatar for Emiola Damilola">
+                    </figure>
 
-     <!-- Profile Page -->
-     <div class="card">
-        <div class="card-content">
-            <!-- Left Section: Avatar and Social Links -->
-            <div class="left-section">
-                <img class="avatar" src="20251018_155743.jpg" alt="Profile avatar for Damilola Emiola">
+                    <!-- Name (Header) -->
+                    <header>
+                        <h2 data-testid="test-user-name" class="name">
+                            Emiola Damilola
+                        </h2>
+                        <p class="title">Frontend Designer</p>
+                    </header>
+
+                    <!-- Social Links -->
+                    <nav>
+                        <ul data-testid="test-user-social-links" class="social-links">
+                            <li>
+                                <a data-testid="test-user-social-github" href="https://github.com/DeeJayHemilee" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+                                    <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                               <a data-testid="test-user-social-linkedin" href="https://www.linkedin.com/in/damilolaemiola" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                                    <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                               <a data-testid="test-user-social-twitter" href="https://x.com/Deejayhemilee?s=09" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter Profile">
+                                    <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
                 
-                <h2 class="name">Emiola Damilola Joy</h2>
-                <p class="title">Frontend Designer</p>
                 
-                <div class="social-links">
-                    <a href="https://github.com/DeeJayHemilee" target="_blank" class="social-link" aria-label="GitHub Profile">
-                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/damilolaemiola" target="_blank" class="social-link" aria-label="LinkedIn Profile">
-                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                        </svg>
-                    </a>
-                    <a href="https://x.com/Deejayhemilee?s=09" target="_blank" class="social-link" aria-label="Twitter Profile">
-                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                        </svg>
-                    </a>
+                <!-- Right Section: Bio, Time, Hobbies, Dislikes -->
+                <div class="right-section">
+                    <!-- Biography -->
+                    <section aria-labelledby="bio-heading">
+                        <h3 id="bio-heading" class="section-title">Biography</h3>
+                        <p data-testid="test-user-bio" class="bio">
+                            Passionate frontend developer and medical physicist dedicated to creating futuristic, accessible, and colorful experiences. Always learning and exploring new technologies to push the boundaries of what's possible on the web.                        </p>
+                    </section>
+                    
+                    <!-- Current Time -->
+                    <section class="time-container" aria-labelledby="time-heading">
+                         <h3 id="time-heading" class="section-title">Current Time</h3>
+                         <p data-testid="test-user-time" class="time">
+                            <!-- Time in milliseconds will be injected here by JavaScript -->
+                            Loading...
+                         </p>
+                    </section>
+
+                    <div class="hobbies-dislikes">
+                        <!-- Hobbies -->
+                        <section aria-labelledby="hobbies-heading">
+                            <h3 id="hobbies-heading" class="section-title">Hobbies</h3>
+                            <ul data-testid="test-user-hobbies" class="tags">
+                               <li><span class="tag hobby-tag">Coding</span></li>
+                               <li><span class="tag hobby-tag">TX Planning</span></li>
+                               <li><span class="tag hobby-tag">Reading</span></li>
+                               <li><span class="tag hobby-tag">Movies</span></li>
+                               <li><span class="tag hobby-tag">Sewing</span></li>
+                            </ul>
+                        </section>
+
+                        <!-- Dislikes -->
+                        <section aria-labelledby="dislikes-heading">
+                            <h3 id="dislikes-heading" class="section-title">Dislikes</h3>
+                            <ul data-testid="test-user-dislikes" class="tags">
+                               <li><span class="tag dislike-tag">Slow WiFi</span></li>
+                               <li><span class="tag dislike-tag">Negative Energy</span></li>
+                               <li><span class="tag dislike-tag">Merge Conflicts</span></li>
+                               <li><span class="tag dislike-tag">Push Confilts</span></li>
+                            </ul>
+                        </section>
+                    </div>
                 </div>
             </div>
-            
-            <!-- Right Section: Bio, Time, Hobbies, Dislikes -->
-            <div class="right-section">
-                <!-- Biography -->
-                <div class="section">
-                    <h3 class="section-title">Biography</h3>
-                    <p class="bio">
-                        Passionate frontend developer and medical physicist dedicated to creating futuristic, accessible, and colorful experiences. Always learning and exploring new technologies to push the boundaries of what's possible on the web.
-                    </p>
-                </div>
-                
-                <!-- Current Time -->
-                <section class="time-container" aria-labelledby="time-heading">
-                     <h3 id="time-heading" class="section-title">Current Time</h3>
-                     <p data-testid="test-user-time" class="time">
-                        <!-- Time in milliseconds will be injected here by JavaScript -->
-                        Loading...
-                     </p>
-                </section>
+        </article>                   
+    </main>
 
-                <div class="hobbies-dislikes">
-                    <!-- Hobbies -->
-                    <div class="section">
-                        <h3 class="section-title">Hobbies</h3>
-                        <div class="tags">
-                            <span class="tag hobby-tag">Coding</span>
-                            <span class="tag hobby-tag">TX Planning</span>
-                            <span class="tag hobby-tag">Reading</span>
-                            <span class="tag hobby-tag">Movies</span>
-                            <span class="tag hobby-tag">Sewing</span>
-                        </div>
-                    </div>
-
-                    <!-- Dislikes -->
-                    <div class="section">
-                        <h3 class="section-title">Dislikes</h3>
-                        <div class="tags">
-                            <span class="tag dislike-tag">Slow WiFi</span>
-                            <span class="tag dislike-tag">Negative Energy</span>
-                            <span class="tag dislike-tag">Merge Conflicts</span>
-                            <span class="tag dislike-tag">Push Conflicts</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Contact Page -->
     <main class="page-container" id="contact-page">
         <article class="card">
@@ -167,16 +191,15 @@
             </div>
         </article>
     </main>
-
-    <!-- About Page -->
-    <main class="page-container" id="about-page" data-testid="test-about-page">
+<!-- About Page -->
+    <main data-testid="test-about-page">
         <article class="card">
             <div class="right-section">
                 <h1 class="section-title">About Me</h1>
                 
                 <section class="about-section" data-testid="test-about-bio">
                     <h2>My Journey</h2>
-                    <p>I'm a passionate frontend developer with over 3 years of experience creating digital experiences that are both beautiful and functional. My journey began in university where I discovered my love for problem-solving through code.</p>
+                    <p>I'm a passionate frontend developer with over 15 months of experience creating digital experiences that are both beautiful and functional. My journey began in 2024 when I opportune to learn for 6-month. it was intensive and eye opening. .</p>
                     <p>Since then, I've worked on various projects ranging from small business websites to large-scale web applications, always focusing on creating accessible, performant, and user-friendly interfaces.</p>
                 </section>
 
@@ -184,11 +207,12 @@
                     <h2>Goals in This Program</h2>
                     <p>My primary goals for participating in this program are:</p>
                     <ul>
-                        <li>Master advanced React patterns and state management techniques</li>
-                        <li>Improve my testing skills with comprehensive unit and integration tests</li>
-                        <li>Learn best practices for building scalable and maintainable applications</li>
+                        <li>Start and master advanced React patterns and state management techniques</li>
+                        <li>Gain real project experience and problem-solving skills</li>
+                        <li>Improve my understanding of clean, structured code</li>
                         <li>Collaborate with other developers and learn from their experiences</li>
                         <li>Build a strong portfolio of projects that demonstrate my capabilities</li>
+                        <li>Use what I learn to make an impact across science, fashion, and tech</li>
                     </ul>
                 </section>
 
@@ -198,17 +222,70 @@
                     <ul>
                         <li><strong>Advanced CSS Architecture:</strong> Implementing complex design systems at scale</li>
                         <li><strong>Performance Optimization:</strong> Deep diving into bundle optimization and runtime performance</li>
-                        <li><strong>Accessibility:</strong> Ensuring WCAG 2.1 AA compliance across all projects</li>
-                        <li><strong>Backend Integration:</strong> Working more efficiently with API design and GraphQL</li>
+                        <li><strong>Perfection:</strong> Overcoming perfectionism when coding or designing</li>
+                        <li><strong>Consistency:</strong>Staying consistent with daily practiceL</li>
                     </ul>
                 </section>
 
                 <section class="about-section" data-testid="test-about-future-note">
                     <h2>Note to Future Self</h2>
-                    <p>Remember why you started this journey - because you love creating things that make people's lives better. Don't get discouraged by challenges; they're opportunities to grow.</p>
-                    <p>Keep learning, stay curious, and never stop building. The tech landscape will always change, but your ability to adapt and learn will be your greatest asset.</p>
-                    <p>Always prioritize clean code, good documentation, and helping others along the way.</p>
+                    <p>Remember why you started this journey - because you love creating things that make people's lives better. Stay authentic, even when no one is watching Don't get discouraged by challenges; they're opportunities to grow.</p>
+                    <p>Don’t rush; growth takes time and discipline. Keep learning, stay curious, and never stop building. The tech landscape will always change, but your ability to adapt and learn will be your greatest asset.</p>
+                    <p>Always prioritize clean code, good documentation, and helping others along the way. Rest when needed; you don’t have to do it all at once</p>
                 </section>
+              
+
+                <section class="about-section" data-testid="test-about-extra">
+                    <h2>Additional Thoughts</h2>
+                    <p>I believe that great software is built not just with technical skills, but with empathy for the end user. Understanding their needs, frustrations, and goals is what separates good products from great ones.</p>
+                    <p>I'm excited to continue growing as a developer and contributing to projects that have a positive impact. The opportunity to learn from experienced mentors and collaborate with passionate peers is incredibly valuable.</p>
+                    <p>Looking forward to the challenges and growth opportunities this program will bring!</p>
+                </section>
+            </div>
+        </article>
+    </main><!-- About Page -->
+    <main data-testid="test-about-page">
+        <article class="card">
+            <div class="right-section">
+                <h1 class="section-title">About Me</h1>
+                
+                <section class="about-section" data-testid="test-about-bio">
+                    <h2>My Journey</h2>
+                    <p>I'm a passionate frontend developer with over 15 months of experience creating digital experiences that are both beautiful and functional. My journey began in 2024 when I opportune to learn for 6-month. it was intensive and eye opening. .</p>
+                    <p>Since then, I've worked on various projects ranging from small business websites to large-scale web applications, always focusing on creating accessible, performant, and user-friendly interfaces.</p>
+                </section>
+
+                <section class="about-section" data-testid="test-about-goals">
+                    <h2>Goals in This Program</h2>
+                    <p>My primary goals for participating in this program are:</p>
+                    <ul>
+                        <li>Start and master advanced React patterns and state management techniques</li>
+                        <li>Gain real project experience and problem-solving skills</li>
+                        <li>Improve my understanding of clean, structured code</li>
+                        <li>Collaborate with other developers and learn from their experiences</li>
+                        <li>Build a strong portfolio of projects that demonstrate my capabilities</li>
+                        <li>Use what I learn to make an impact across science, fashion, and tech</li>
+                    </ul>
+                </section>
+
+                <section class="about-section" data-testid="test-about-confidence">
+                    <h2>Areas of Low Confidence</h2>
+                    <p>While I'm comfortable with many aspects of frontend development, there are areas where I'd like to build more confidence:</p>
+                    <ul>
+                        <li><strong>Advanced CSS Architecture:</strong> Implementing complex design systems at scale</li>
+                        <li><strong>Performance Optimization:</strong> Deep diving into bundle optimization and runtime performance</li>
+                        <li><strong>Perfection:</strong> Overcoming perfectionism when coding or designing</li>
+                        <li><strong>Consistency:</strong>Staying consistent with daily practiceL</li>
+                    </ul>
+                </section>
+
+                <section class="about-section" data-testid="test-about-future-note">
+                    <h2>Note to Future Self</h2>
+                    <p>Remember why you started this journey - because you love creating things that make people's lives better. Stay authentic, even when no one is watching Don't get discouraged by challenges; they're opportunities to grow.</p>
+                    <p>Don’t rush; growth takes time and discipline. Keep learning, stay curious, and never stop building. The tech landscape will always change, but your ability to adapt and learn will be your greatest asset.</p>
+                    <p>Always prioritize clean code, good documentation, and helping others along the way. Rest when needed; you don’t have to do it all at once</p>
+                </section>
+              
 
                 <section class="about-section" data-testid="test-about-extra">
                     <h2>Additional Thoughts</h2>
